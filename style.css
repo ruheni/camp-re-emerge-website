@@ -1,0 +1,57 @@
+*{
+    color: #ffffff;
+    box-sizing: border-box;
+}
+html{
+    background: url(tommy-lisbin-2DH-qMX6M4E-unsplash.jpg) no-repeat center bottom fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+    color: #ffffff;
+}
+.nav{
+    background-color: #0000009f;
+  
+}
+.menu>a{
+    padding: 10px 50px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.menu>a:hover{
+    background-color: #a5dc0f;
+    color: #000000;
+    
+}
+
+.home-content{
+    max-width: 500px;
+    margin: 100px 60px 0 20px;
+    background-color: #0000009f;
+    padding: 30px 20px;
+    border-radius: 5px;
+    
+}
+.card{
+    /* box-shadow: 0 .5em 1em -.125em #a5dc0f48,0 0 0 1px #a5dc0f3f; */
+    box-shadow: 0 .5em 1em -.125em #0000009f,0 0 0 1px#0000009f;
+   
+}
+.content{
+    margin: 50px 0px;
+}
+.button{
+    margin-top: 50px;
+    border: 3px solid #a5dc0f;
+    background-color: #0000009f;
+    color: #ffffff;
+    
+}
+.button:hover{
+    background-color:  #a5dc0f;
+    color: #000000;
+    border: none;
+}
