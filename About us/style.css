@@ -12,7 +12,6 @@ html{
     top: 0;
     right: 0;
     left: 0;
-  
 }
 .menu>a{
     margin: 0 20px;
@@ -28,4 +27,6 @@ html{
     transition: ease-in-out; 
     font-size: 1.1rem;
 }
-
+.about{
+    margin: 100px 50px;
+}
