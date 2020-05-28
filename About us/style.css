@@ -1,0 +1,31 @@
+
+*{
+    color:  #000000;
+    box-sizing: border-box;
+}
+html{
+    background-color:  #a5dc0f;
+}
+.nav{
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  
+}
+.menu>a{
+    margin: 0 20px;
+    padding: 10px 10px;
+    color: #ffffff;
+    font-weight: 600;
+    width: 150px;
+    
+}
+.menu>a:hover{
+    background-color: unset;
+    color: #a5dc0f;
+    transition: ease-in-out; 
+    font-size: 1.1rem;
+}
+
