@@ -2,6 +2,9 @@
 *{
     color:  #000000;
     box-sizing: border-box;
+
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
 html{
     background-color:  #a5dc0f;
@@ -13,7 +16,7 @@ html{
     right: 0;
     left: 0;
 }
-.menu>a{
+/* .menu>a{
     margin: 0 20px;
     padding: 10px 10px;
     color: #ffffff;
@@ -26,7 +29,33 @@ html{
     color: #a5dc0f;
     transition: ease-in-out; 
     font-size: 1.1rem;
+} */
+.menu>a{
+    padding: 10px 50px;
+    color: #ffffff;
+    font-weight: 600;
+    
 }
-.about{
-    margin: 100px 50px;
+.menu>a:hover{
+    background-color: #ffffff;
+    color: #000000;
+    
+}
+/* ABOUT SECTION SYTLES */
+.card-style{
+    margin: 80px 100px;
+    padding: 20px;
+    border-radius: 7px;
+}
+.is-3{
+    padding: 20px;
+}
+
+
+/* VALUES SECTION SYTLES*/
+.icons{
+width: 70px;
+}
+.column-style{
+    padding: 10px 30px 30px;
 }
