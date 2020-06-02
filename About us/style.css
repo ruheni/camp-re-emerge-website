@@ -1,12 +1,17 @@
-
+/* GENERAL STYLES */
 *{
-    color:  #000000;
+    
     box-sizing: border-box;
     line-height: 1.5rem;
 }
+
 html{
     background-color:  #a5dc0f;
 }
+body{
+    color:  #000000;
+}
+/* NAVBAR STYLES */
 .nav{
     background-color: #000000;
     position: fixed;
@@ -39,6 +44,8 @@ html{
     color: #000000;
     
 }
+
+
 /* ABOUT SECTION SYTLES */
 .card-style{
     margin: 80px 100px;
@@ -56,4 +63,15 @@ width: 70px;
 }
 .column-style{
     padding: 10px 30px 30px;
+}
+/* FOOTER */
+.footer{
+    background-color: #000000;
+    font-size: 11px;
+    color: #ffffff;
+    text-align: center;
+}
+a{
+    color: #a5dc0f;
+    text-decoration: none;
 }
