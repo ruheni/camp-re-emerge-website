@@ -70,8 +70,14 @@ width: 70px;
     font-size: 11px;
     color: #ffffff;
     text-align: center;
+    bottom: 0;
+    padding: 30px;
 }
 a{
     color: #a5dc0f;
     text-decoration: none;
+}
+.social-icon{
+    width: 20px;
+    margin-right: 20px;
 }
